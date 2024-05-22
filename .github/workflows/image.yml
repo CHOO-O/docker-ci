@@ -24,6 +24,7 @@ jobs:
             {{version}}
             {{major}}.{{minor}}
           tag-latest: true 
+          tag-prefix: ''
       - name: Set up QEMU
         uses: docker/setup-qemu-action@v2
 
