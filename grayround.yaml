@@ -18,7 +18,7 @@ spec:
         app: grayround
     spec:
       containers:
-        - image: chooooo/grayround:latest
+        - image: chooooo/grayround
         name: grayround
         ports:
         - containerPort: 80
